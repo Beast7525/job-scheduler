@@ -1,0 +1,37 @@
+
+{
+  "policy": "proposed",
+  "current_time": 0,
+  "jobs": [
+    {
+      "id": "J101",
+      "tenant_id": "Team_A",
+      "priority": "critical",
+      "runtime": 3,
+      "deadline": 8,
+      "required_capacity": 1
+    },
+    {
+      "id": "J102",
+      "tenant_id": "Team_B",
+      "priority": "normal",
+      "runtime": 5,
+      "deadline": 15,
+      "required_capacity": 1
+    }
+  ],
+  "workers": [
+    {
+      "id": "W1",
+      "capacity": 1,
+      "available_at": 0,
+      "online": true
+    },
+    {
+      "id": "W2",
+      "capacity": 2,
+      "available_at": 0,
+      "online": true
+    }
+  ]
+}
